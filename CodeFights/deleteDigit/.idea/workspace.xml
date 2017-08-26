@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ce4c456b-22bd-4f6e-869e-80a8bb9913d2" name="Default" comment="" />
+    <list default="true" id="598876af-790d-41b3-9654-ba295cc953c5" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,12 +16,12 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="18" column="61" lean-forward="false" selection-start-line="18" selection-start-column="61" selection-end-line="18" selection-end-column="61" />
+            <state relative-caret-position="220">
+              <caret line="10" column="45" lean-forward="false" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
-                <element signature="e#566#567#0" expanded="true" />
-                <element signature="e#637#638#0" expanded="true" />
+                <element signature="e#231#232#0" expanded="true" />
+                <element signature="e#284#285#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -49,7 +49,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="960" />
+    <option name="x" value="1" />
+    <option name="width" value="959" />
     <option name="height" value="1040" />
   </component>
   <component name="ProjectView">
@@ -67,22 +68,22 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="isMAC48Address" />
+              <option name="myItemId" value="deleteDigit" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="isMAC48Address" />
+              <option name="myItemId" value="deleteDigit" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -113,7 +114,7 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="isMAC48Address" />
+      <module name="deleteDigit" />
       <envs />
       <method />
     </configuration>
@@ -269,7 +270,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="isMAC48Address" />
+      <module name="deleteDigit" />
       <envs />
       <method />
     </configuration>
@@ -335,22 +336,22 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ce4c456b-22bd-4f6e-869e-80a8bb9913d2" name="Default" comment="" />
-      <created>1503766804439</created>
+      <changelist id="598876af-790d-41b3-9654-ba295cc953c5" name="Default" comment="" />
+      <created>1503767790031</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1503766804439</updated>
+      <updated>1503767790031</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="960" height="1040" extended-state="0" />
+    <frame x="1" y="0" width="959" height="1040" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -362,7 +363,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24920467" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -391,12 +392,12 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="61" lean-forward="false" selection-start-line="18" selection-start-column="61" selection-end-line="18" selection-end-column="61" />
+        <state relative-caret-position="220">
+          <caret line="10" column="45" lean-forward="false" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <element signature="e#566#567#0" expanded="true" />
-            <element signature="e#637#638#0" expanded="true" />
+            <element signature="e#231#232#0" expanded="true" />
+            <element signature="e#284#285#0" expanded="true" />
           </folding>
         </state>
       </provider>
