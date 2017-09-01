@@ -6,19 +6,22 @@ import java.util.Scanner;
 public class Aplikacja_Glowna {
     public static void main(String... args) {
         System.out.println("Witam w programie zarządzania salonem samochodów używanych" +
-                "Wybierz salon który chcesz obsłużyć:\n1) Warszawa\n2) Lódź");
+                "Wybierz salon który chcesz obsłużyć:\n1) Warszawa\n2) Lódź\n0) Zakończ");
         Scanner scanner = new Scanner(System.in);
-        String wybor = scanner.next();
-        if (wybor == "1") {
-            System.out.println("Witamy w salonie w Warszawie");
-            menu();
-        } else if (wybor == "2") {
-            System.out.println("Witamy w salonie w Lodzi");
-            menu();
-        } else if (scanner.next().length() > 1){
+        String tekst = scanner.next();
+        char wybor = tekst.charAt(0);
+        if (tekst.length() > 1) {
             System.out.println("Spróbuj ponownie");
             main();
-        }else {
+        } else if (wybor == '1') {
+            System.out.println("Witamy w salonie w Warszawie");
+            menu();
+        } else if (wybor == '2') {
+            System.out.println("Witamy w salonie w Lodzi");
+            menu();
+        } else if (wybor == '0') {
+            System.out.println("No to kończymy...");
+        } else {
             System.out.println("Sprobuj ponownie");
             main();
         }
@@ -26,22 +29,26 @@ public class Aplikacja_Glowna {
 
     public static void menu() {
         System.out.println("Co chesz zrobić?\n1 Dodaj nowy samochod\n2 Wywietl listę samochodow\n"
-                + "3 Wyszukaj auto marzeń\n4 Usuń samochód z oferty");
-        Scanner choice = new Scanner(System.in);
-        char wyborZadania = '0';
-        while (wyborZadania != 1 && wyborZadania != 2 && wyborZadania != 3 && wyborZadania != 4) {
-            wyborZadania = choice.next().charAt(0);
-            if (wyborZadania == '1') {
-                System.out.println("Rozpoczynam dodawanie nowego auta");
-            } else if (wyborZadania == '2') {
-                System.out.println("Wywietlam listę aut");
-            } else if (wyborZadania == '3') {
-                System.out.println("Wyszukuję auto Twoich marzeń");
-            } else if (wyborZadania == '4') {
-                System.out.println("Usuwam złom z oferty");
-            } else {
-                System.out.println("Podales błędny znak \nspróbuj ponownie");
-            }
+                + "3 Wyszukaj auto marzeń\n4 Usuń samochód z oferty\n0 Zakończ");
+        Scanner scanner = new Scanner(System.in);
+        String wybor = scanner.next();
+        char wyborZadania = wybor.charAt(0);
+        if (wybor.length() > 1) {
+            System.out.println("Wprowadziłeś błędne dane spróbuj ponownie...");
+            menu();
+        } else if (wyborZadania == '1') {
+            System.out.println("Rozpoczynam dodawanie nowego auta");
+        } else if (wyborZadania == '2') {
+            System.out.println("Wywietlam listę aut");
+        } else if (wyborZadania == '3') {
+            System.out.println("Wyszukuję auto Twoich marzeń");
+        } else if (wyborZadania == '4') {
+            System.out.println("Usuwam złom z oferty");
+        } else if (wyborZadania == '0') {
+            System.out.println("No to kończymy...");
+        } else {
+            System.out.println("Podales błędny znak \nspróbuj ponownie");
+            menu();
         }
     }
 }
