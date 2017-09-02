@@ -38,6 +38,7 @@ public class Aplikacja_Glowna {
             menu();
         } else if (wyborZadania == '1') {
             System.out.println("Rozpoczynam dodawanie nowego auta");
+            Salon_Samochodowy.dodajSamochod();
         } else if (wyborZadania == '2') {
             System.out.println("Wywietlam listę aut");
         } else if (wyborZadania == '3') {
